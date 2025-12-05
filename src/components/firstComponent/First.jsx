@@ -6,7 +6,7 @@ import { MoveRight } from 'lucide-react'
 
 const First = () => {
   return (
-    <div className='px-20 p-5' >
+    <div className='px-5 py-10 sm:px-10 xl:px-50 3xl:px-100 lg:py-20 xl:py-40' >
         <div className='flex justify-between gap-20'>
             <section className='flex flex-col '>
                 <img className='rounded-2xl w-full h-full -rotate-6' src={Crop}/>

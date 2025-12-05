@@ -1,6 +1,8 @@
-import React from 'react'
+import { useState } from "react"
 
 const Choose = () => {
+
+    const [plus, setPlus] = useState(true)
   return (
     <section className='px-5 py-10 sm:px-10 xl:px-50 3xl:px-100 lg:py-20 xl:py-40 bg-[#F7F7F7]' >
         <div className='md:flex'>
@@ -34,6 +36,26 @@ const Choose = () => {
                 <p>We’re an award-winning digital agency! – Not once, not twice but we are proud to have been awarded over 100+ industry awards for our success in marketing.</p>
             </div>
         </div>
+        <div className='flex items-center justify-center mt-5'>
+            <p onClick={() => setPlus(i => !i)} className='text-lg font-semibold cursor-pointer'>We also believe in strong business values... {plus ? "+" : "-"}</p>
+        </div>
+        
+        { !plus &&
+            <div className='lg:grid grid-cols-3 gap-5 mt-5'>
+                <div>
+                    <h3 className='text-3xl font-semibold  mb-5'>Relationship</h3>
+                    <p><span className='font-bold'>We’re an award-winning digital agency!</span> – Not once, not twice but we are proud to have been awarded over 100+ industry awards for our success in marketing.</p>
+                </div>
+                <div>
+                    <h3 className='text-3xl font-semibold  mb-5'>Excellence</h3>
+                    <p><span className='font-bold'>We’re an award-winning digital agency!</span> – Not once, not twice but we are proud to have been awarded over 100+ industry awards for our success in marketing.</p>
+                </div>
+                <div>
+                    <h3 className='text-3xl font-semibold  mb-5'>Integrity</h3>
+                    <p><span className='font-bold'>We’re an award-winning digital agency!</span> – Not once, not twice but we are proud to have been awarded over 100+ industry awards for our success in marketing.</p>
+                </div>
+            </div>
+        }
     </section>
   )
 }
