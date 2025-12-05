@@ -31,7 +31,7 @@ const Specialist = () => {
         </div>
       </div>
 
-      <div className='mt-5'>
+      <div className='mt-5  hover:pointer'>
         <Button className="rounded-4xl p-8 border-2" variant="outline">See our awards...</Button>
       </div>
     </section>
