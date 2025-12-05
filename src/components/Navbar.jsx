@@ -62,7 +62,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-between px-20 mt-5'>
+    <div className='flex justify-between px-50 mt-5'>
         <div>
             <img className='w-60' src={Crop} />
         </div>
