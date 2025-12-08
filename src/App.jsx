@@ -5,7 +5,7 @@ import FirstAbout from './components/firstComponent/FirstAbout'
 import Specialist from './components/firstComponent/Specialist'
 import Choose from './components/firstComponent/Choose'
 import DigitalServices from './components/firstComponent/DigitalServices'
-
+import Trust from './components/firstComponent/Trust'
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
       <Specialist />
       <Choose />
       <DigitalServices />
+      <Trust/>
     </div>
   )
 }

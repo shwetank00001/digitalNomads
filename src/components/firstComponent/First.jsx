@@ -26,7 +26,7 @@ const First = () => {
                     </div>
                     <div className='mt-5 flex items-center gap-5 '>
                         <Button className="bg-orange-600 rounded-4xl p-8 text-xl">Get A Proposal</Button>
-                            <p className='underline font-semibold text-xl'>Meet our team <span>🡲</span></p>  
+                        <Button className='underline font-semibold text-xl'>Meet our team <span>🡲</span></Button>  
                     </div>
                 </div>
             </section>
@@ -40,10 +40,10 @@ const First = () => {
         <footer>
             <div className='mt-10 flex justify-between text-lg font-semibold'>
                 <p>150+ Real Results</p>
-                    <p>📈 39.1% increase in organic traffic in 6 months - National Franchise</p>
-                    <p>🙌 "Shwetank HQ has helped us grow incredibly fast!" - Local Small Business</p>
-                    <p>🌟 "Brilliant Services, Highly Professional." - Healthcare Organisation</p>
-                    <p>🚀 x21 Targeted Keywords Now In Top #3 Position - Construction Company</p>
+                <p className=''>📈 39.1% increase in organic traffic in 6 months - National Franchise</p>
+                <p>🙌 "Shwetank HQ has helped us grow incredibly fast!" - Local Small Business</p>
+                <p>🌟 "Brilliant Services, Highly Professional." - Healthcare Organisation</p>
+                <p>🚀 x21 Targeted Keywords Now In Top #3 Position - Construction Company</p>
             </div>
         </footer>
     </div>

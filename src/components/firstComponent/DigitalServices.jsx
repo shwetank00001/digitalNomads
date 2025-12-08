@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { useState } from "react"
+import { Button } from "@/components/ui/button"
 
 const DigitalServices = () => {
 
@@ -52,13 +53,16 @@ const DigitalServices = () => {
 
   const ele =  cardContent.map((item) => {
     return (
-      <Card>
+      <Card className="border-black first:bg-black first:text-white">
         <CardHeader>
           <CardTitle className="text-4xl">{item.header}</CardTitle>
         </CardHeader>
-        <CardContent>
-          <p>{item.content}</p>
+        <CardContent className="mt-10">
+          <p className="text-lg">{item.content}</p>
         </CardContent>
+        <CardFooter>
+          <Button className ="p-7 text-md first:text-black" variant ="outline">Read More</Button>
+        </CardFooter>
       </Card>
     )
   })
