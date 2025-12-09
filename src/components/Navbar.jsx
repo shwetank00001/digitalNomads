@@ -62,9 +62,9 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-between px-50 mt-5'>
+    <div className='flex justify-between py-10 sm:px-10 xl:px-50 3xl:px-100'>
         <div>
-            <img className='w-60' src={Crop} />
+            <img className='w-[100%]' src={Crop} />
         </div>
 
         <div className='grid grid-cols-5 items-center'>
@@ -72,7 +72,7 @@ const Navbar = () => {
             <p>Contact</p>
         </div>
 
-        <div className='flex items-center gap-5 font-semibold'>
+        <div className='flex items-center gap-5 font-semibold invisible lg:visible'>
             <p>897911001</p>
             <Button className="rounded-4xl p-8" >Im Ready</Button>
         </div>
