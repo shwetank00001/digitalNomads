@@ -6,7 +6,7 @@ const Trust = () => {
           <div className=''>
               <br/>
               <div>
-                  <p className='text-6xl font-semibold'>Trusted by local <span className='text-[#F34D01]'>& national brands</span></p>
+                  <p className='text-4xl md:text-5xl lg:text-6xl font-semibold'>Trusted by local <span className='text-[#F34D01]'>& national brands</span></p>
               </div>
           </div>
           <br/>

@@ -70,7 +70,7 @@ const DigitalServices = () => {
   return (
     <div className='px-5 py-10 sm:px-10 xl:px-50 3xl:px-100 lg:py-20 xl:py-40'>
         <div className="flex flex-col justify-center items-center gap-5">
-            <p className="text-5xl font-semibold">Digital services to establish, build or grow your business...</p>
+            <p className="text-5xl font-semibold">Digital services to <span className="underline">establish</span>, build or grow your business...</p>
             <p>With in-house digital marketing experts based on the coast… we’ve got you covered!</p>
             <p>Whether you’re starting digital marketing for the first time, our looking to elevate upon an existing foundation, our team will work with you. </p>
             <p>From SEO to paid media and web design, not to mention our killer content services – everything we do is geared towards supporting your business goals.</p>

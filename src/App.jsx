@@ -6,6 +6,7 @@ import Specialist from './components/firstComponent/Specialist'
 import Choose from './components/firstComponent/Choose'
 import DigitalServices from './components/firstComponent/DigitalServices'
 import Trust from './components/firstComponent/Trust'
+import ProvenSuccess from './components/firstComponent/ProvenSuccess'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Choose />
       <DigitalServices />
       <Trust/>
+      <ProvenSuccess/>
     </div>
   )
 }
